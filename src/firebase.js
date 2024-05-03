@@ -1,10 +1,10 @@
 // Import the functions you need from the SDKs you need
-import { initializeApp } from "firebase/app";
+export { initializeApp } from "firebase/app";
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration
-const firebaseConfig = {
+export const firebaseConfig = {
   apiKey: "AIzaSyBUOUisPetmqN-SOGsKG-kU4ZGilmfOGpc",
   authDomain: "vue-auth-34d17.firebaseapp.com",
   projectId: "vue-auth-34d17",
@@ -13,5 +13,3 @@ const firebaseConfig = {
   appId: "1:206474945371:web:4a7da8d9e78a55edc7f07e"
 };
 
-// Initialize Firebase
-const app = initializeApp(firebaseConfig);
