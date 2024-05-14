@@ -2,6 +2,8 @@
   <div class="p-5">
     <h2 class="text-2xl">Login</h2>
     <form @submit.prevent class="flex flex-1 justify-between mt-6">
+      <!-- Error Message -->
+      <span class="text-black text-sm font-bold"> {{ errMsg }}</span>
       <input type="email" v-model="email" placeholder="Email" />
       <input type="password" v-model="password" placeholder="Password" />
       <button @click="Login()" type="submit">Login</button>
